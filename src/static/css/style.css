@@ -1,0 +1,24 @@
+*{ margin: 0; padding: 0;}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 376px) {
+    h5 {
+        font-size: 15px;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 30px 20px;
+}
+
+h3, h4 {
+    text-align: center;
+    padding-bottom: 10px;
+}
