@@ -2,7 +2,7 @@
 Insert dummy data into database
 """
 from src import init_app
-from src.models.user import User
+from src.models.models import User
 
 
 def insert_dummy_data():
